@@ -7,11 +7,18 @@ To write a printQueue C function of the given graph that is to be traversed in t
 
 
 ## Algorithm
-1. 
-2. 
-3. 
-4.  
-5.   
+
+1.Start
+
+2.Start from the front index of the queue.
+
+3.If the queue is empty, print "Queue is empty".
+
+4.Otherwise, print "Queue contains" and display all items from front to rear.
+
+5.Return after printing the queue contents.
+
+6.End
 
 ## Program:
 ```
