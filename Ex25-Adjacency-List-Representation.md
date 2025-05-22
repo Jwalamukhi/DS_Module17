@@ -4,11 +4,14 @@
 To write a C program to represent the given graph using the adjacency list.
 
 ## Algorithm
-1. 
-2. 
-3. 
-4.  
-5.   
+
+1.Read the number of vertices and number of edges.
+
+2.Read all edge pairs (source and destination) and store them.
+
+3.Create a graph using the input edge list.
+
+4.Print the adjacency list representation of the graph.
 
 ## Program:
 ```
