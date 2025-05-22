@@ -14,13 +14,46 @@ To write a C program to display the adjacency matrix of the given graph by suppl
 ```
 /*
 Program to display the adjacency matrix of the given graph
-Developed by: 
-RegisterNumber:  
+Developed by: Jwalamukhi S
+RegisterNumber:  212223040079
 */
+
+/*#include<stdio.h>
+int V;
+
+//init matrix to 0
+void init(int arr[][V])
+{
+    int i,j;
+    for(i = 0; i < V; i++)
+        for(j = 0; j < V; j++)
+            arr[i][j] = 0;
+}
+*/
+int main()
+{  int e1,e2,me,n,i;
+    scanf("%d",&V);
+    int adjMatrix[V][V];
+    init(adjMatrix);
+
+ n=V;
+ me=n*(n-1)/2;
+ for(i=1;i<=me;i++)
+ {
+     scanf("%d",&e1);
+     scanf("%d",&e2);
+     addEdge(adjMatrix,e1,e2);
+     
+ }
+ printAdjMatrix(adjMatrix);
+ 
+ 
+}
 ```
 
 ## Output:
 
+![Screenshot 2025-05-22 140401](https://github.com/user-attachments/assets/76ef54d4-3870-4929-9cff-4eb9a30933a1)
 
 
 ## Result:
